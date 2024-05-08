@@ -40,4 +40,3 @@ def get_all_user_repositories(username):
     except requests.exceptions.RequestException as e:
         print(f"Error fetching repositories for user {username}: {e}")
         return None
-
